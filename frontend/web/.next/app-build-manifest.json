@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/layout.js"
+    ],
+    "/modules/gl/gl_dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/modules/gl/gl_dashboard/page.css",
+      "static/chunks/app/modules/gl/gl_dashboard/page.js"
+    ],
+    "/modules/gl/journals/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/modules/gl/journals/page.css",
+      "static/chunks/app/modules/gl/journals/page.js"
+    ],
+    "/modules/gl/journals/view/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/modules/gl/journals/view/[id]/page.js"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "/modules/gl/journals/page": "app/modules/gl/journals/page.js",
+  "/page": "app/page.js",
+  "/modules/gl/journals/view/[id]/page": "app/modules/gl/journals/view/[id]/page.js",
+  "/modules/gl/gl_dashboard/page": "app/modules/gl/gl_dashboard/page.js"
+}

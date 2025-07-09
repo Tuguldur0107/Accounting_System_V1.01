@@ -1,0 +1,26 @@
+"table_name","column_name","data_type","is_nullable","column_default"
+"journal_entries","id","uuid","NO",NULL
+"journal_entries","ledger_id","uuid","YES",NULL
+"journal_entries","tenant_id","uuid","NO",NULL
+"journal_entries","company_id","uuid","NO",NULL
+"journal_entries","line_number","integer","NO",NULL
+"journal_entries","account_code","text","NO",NULL
+"journal_entries","debit","numeric","NO","0"
+"journal_entries","credit","numeric","NO","0"
+"journal_entries","description","text","YES",NULL
+"journal_entries","created_by","uuid","YES",NULL
+"journal_entries","created_at","timestamp with time zone","YES","now()"
+"journal_entries","updated_at","timestamp with time zone","YES","now()"
+"journals","id","uuid","NO",NULL
+"journals","journal_number","text","NO",NULL
+"journals","tenant_id","uuid","NO",NULL
+"journals","company_id","uuid","NO",NULL
+"journals","module","text","NO",NULL
+"journals","transaction_date","date","NO",NULL
+"journals","description","text","YES",NULL
+"journals","status","text","NO","'DRAFT'::text"
+"journals","created_by","uuid","YES",NULL
+"journals","created_at","timestamp with time zone","YES","now()"
+"journals","updated_at","timestamp with time zone","YES","now()"
+"journals","total_debit","numeric","NO","0"
+"journals","total_credit","numeric","NO","0"

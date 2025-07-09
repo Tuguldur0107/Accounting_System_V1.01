@@ -1,0 +1,119 @@
+"table_name","column_name","data_type","is_nullable","column_default"
+"segment10_reserve","id","integer","NO","nextval('segment10_reserve2_id_seq'::regclass)"
+"segment10_reserve","code","character varying","YES",NULL
+"segment10_reserve","name","character varying","YES",NULL
+"segment10_reserve","active","boolean","YES",NULL
+"segment10_reserve","gl","boolean","YES",NULL
+"segment10_reserve","ar","boolean","YES",NULL
+"segment10_reserve","ap","boolean","YES",NULL
+"segment10_reserve","fa","boolean","YES",NULL
+"segment10_reserve","cost","boolean","YES",NULL
+"segment10_reserve","cash","boolean","YES",NULL
+"segment1_company","id","integer","NO","nextval('segment1_company_id_seq'::regclass)"
+"segment1_company","code","character varying","NO",NULL
+"segment1_company","name","character varying","NO",NULL
+"segment1_company","active","boolean","YES","true"
+"segment1_company","gl","boolean","YES","false"
+"segment1_company","ar","boolean","YES","false"
+"segment1_company","ap","boolean","YES","false"
+"segment1_company","fa","boolean","YES","false"
+"segment1_company","cost","boolean","YES","false"
+"segment1_company","cash","boolean","YES","false"
+"segment1_company","created_at","timestamp without time zone","YES","now()"
+"segment1_company","updated_at","timestamp without time zone","YES","now()"
+"segment2_cost_center","id","integer","NO","nextval('segment2_cost_center_id_seq'::regclass)"
+"segment2_cost_center","code","character varying","NO",NULL
+"segment2_cost_center","name","character varying","NO",NULL
+"segment2_cost_center","active","boolean","YES","true"
+"segment2_cost_center","gl","boolean","YES","true"
+"segment2_cost_center","ar","boolean","YES","true"
+"segment2_cost_center","ap","boolean","YES","true"
+"segment2_cost_center","fa","boolean","YES","true"
+"segment2_cost_center","cost","boolean","YES","true"
+"segment2_cost_center","cash","boolean","YES","true"
+"segment2_cost_center","created_at","timestamp without time zone","YES","now()"
+"segment2_cost_center","updated_at","timestamp without time zone","YES","now()"
+"segment3_main_account","id","integer","NO","nextval('segment3_main_account_id_seq'::regclass)"
+"segment3_main_account","code","character varying","YES",NULL
+"segment3_main_account","name","character varying","YES",NULL
+"segment3_main_account","active","boolean","YES",NULL
+"segment3_main_account","gl","boolean","YES",NULL
+"segment3_main_account","ar","boolean","YES",NULL
+"segment3_main_account","ap","boolean","YES",NULL
+"segment3_main_account","fa","boolean","YES",NULL
+"segment3_main_account","cost","boolean","YES",NULL
+"segment3_main_account","cash","boolean","YES",NULL
+"segment3_main_account","created_at","timestamp without time zone","YES","now()"
+"segment3_main_account","updated_at","timestamp without time zone","YES","now()"
+"segment4_product_service","id","integer","NO","nextval('segment4_product_service_id_seq'::regclass)"
+"segment4_product_service","code","character varying","YES",NULL
+"segment4_product_service","name","character varying","YES",NULL
+"segment4_product_service","active","boolean","YES",NULL
+"segment4_product_service","gl","boolean","YES",NULL
+"segment4_product_service","ar","boolean","YES",NULL
+"segment4_product_service","ap","boolean","YES",NULL
+"segment4_product_service","fa","boolean","YES",NULL
+"segment4_product_service","cost","boolean","YES",NULL
+"segment4_product_service","cash","boolean","YES",NULL
+"segment4_product_service","created_at","timestamp without time zone","YES","now()"
+"segment4_product_service","updated_at","timestamp without time zone","YES","now()"
+"segment5_project","id","integer","NO","nextval('segment5_project_id_seq'::regclass)"
+"segment5_project","code","character varying","YES",NULL
+"segment5_project","name","character varying","YES",NULL
+"segment5_project","active","boolean","YES",NULL
+"segment5_project","gl","boolean","YES",NULL
+"segment5_project","ar","boolean","YES",NULL
+"segment5_project","ap","boolean","YES",NULL
+"segment5_project","fa","boolean","YES",NULL
+"segment5_project","cost","boolean","YES",NULL
+"segment5_project","cash","boolean","YES",NULL
+"segment5_project","created_at","timestamp without time zone","YES","now()"
+"segment5_project","updated_at","timestamp without time zone","YES","now()"
+"segment6_inter_company","id","integer","NO","nextval('segment6_inter_company_id_seq'::regclass)"
+"segment6_inter_company","code","character varying","YES",NULL
+"segment6_inter_company","name","character varying","YES",NULL
+"segment6_inter_company","active","boolean","YES",NULL
+"segment6_inter_company","gl","boolean","YES",NULL
+"segment6_inter_company","ar","boolean","YES",NULL
+"segment6_inter_company","ap","boolean","YES",NULL
+"segment6_inter_company","fa","boolean","YES",NULL
+"segment6_inter_company","cost","boolean","YES",NULL
+"segment6_inter_company","cash","boolean","YES",NULL
+"segment6_inter_company","created_at","timestamp without time zone","YES","now()"
+"segment6_inter_company","updated_at","timestamp without time zone","YES","now()"
+"segment7_related_party","id","integer","NO","nextval('segment7_related_party_id_seq'::regclass)"
+"segment7_related_party","code","character varying","YES",NULL
+"segment7_related_party","name","character varying","YES",NULL
+"segment7_related_party","active","boolean","YES",NULL
+"segment7_related_party","gl","boolean","YES",NULL
+"segment7_related_party","ar","boolean","YES",NULL
+"segment7_related_party","ap","boolean","YES",NULL
+"segment7_related_party","fa","boolean","YES",NULL
+"segment7_related_party","cost","boolean","YES",NULL
+"segment7_related_party","cash","boolean","YES",NULL
+"segment7_related_party","created_at","timestamp without time zone","YES","now()"
+"segment7_related_party","updated_at","timestamp without time zone","YES","now()"
+"segment8_cash_flow","id","integer","NO","nextval('segment8_cash_flow_id_seq'::regclass)"
+"segment8_cash_flow","code","character varying","YES",NULL
+"segment8_cash_flow","name","character varying","YES",NULL
+"segment8_cash_flow","active","boolean","YES",NULL
+"segment8_cash_flow","gl","boolean","YES",NULL
+"segment8_cash_flow","ar","boolean","YES",NULL
+"segment8_cash_flow","ap","boolean","YES",NULL
+"segment8_cash_flow","fa","boolean","YES",NULL
+"segment8_cash_flow","cost","boolean","YES",NULL
+"segment8_cash_flow","cash","boolean","YES",NULL
+"segment8_cash_flow","created_at","timestamp without time zone","YES","now()"
+"segment8_cash_flow","updated_at","timestamp without time zone","YES","now()"
+"segment9_modules","id","integer","NO","nextval('segment9_modules_id_seq'::regclass)"
+"segment9_modules","code","character varying","YES",NULL
+"segment9_modules","name","character varying","YES",NULL
+"segment9_modules","active","boolean","YES",NULL
+"segment9_modules","gl","boolean","YES",NULL
+"segment9_modules","ar","boolean","YES",NULL
+"segment9_modules","ap","boolean","YES",NULL
+"segment9_modules","fa","boolean","YES",NULL
+"segment9_modules","cost","boolean","YES",NULL
+"segment9_modules","cash","boolean","YES",NULL
+"segment9_modules","created_at","timestamp without time zone","YES","now()"
+"segment9_modules","updated_at","timestamp without time zone","YES","now()"

@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "web",
+      "path": "frontend/web"
+    },
+    {
+      "name": "backend",
+      "path": "backend"
+    },
+    {
+      "name": "database",
+      "path": "database"
+    },
+    {
+      "name": "shared",
+      "path": "shared"
+    }
+  ],
+  "settings": {}
+}
